@@ -1,0 +1,281 @@
+.garageScreen{
+  display: none;
+  animation: fadeEffect 2s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.garagetitle {
+  text-align: left;
+  padding-left: 5%;
+  color: red;
+  font-family: zen;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px rgb(31, 19, 19);
+}
+
+.common {
+  font-size: none;
+  height: 550px;
+  width: 80%;
+  border: 1px solid red;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.377),
+    0 6px 20px 0 rgba(0, 0, 0, 0.452);
+}
+
+
+.garageoverlay1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  color: white;
+  padding: 20px;
+  padding-left: 10%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 1.3em;
+  font-family: zen;
+}
+
+.dataTitles {
+  width: 100%;
+  text-align: center;
+  color: 1470cc;
+  font-family: zen;
+  font-size: 1.5em;
+}
+
+.dataTitles div {
+  width: 35%;
+}
+
+.dataTitles h1 {
+  margin-bottom: 0;
+    text-shadow: 2px 2px 5px rgb(31, 19, 19);
+}
+
+.garageData{
+  display: flex;
+  flex-direction: row;
+}
+
+.garageData2{
+  display: flex;
+  flex-direction: column;
+}
+
+.garageData2 p{
+  margin-bottom: 0;
+}
+
+.plug{
+  height: 100px;
+  width: 100px;
+  margin-left: 40%;
+}
+
+.brakes{
+  margin-top: 2%;
+  margin-right: 4%;
+  height: 70px;
+  width: 70px;
+}
+
+.chasis{
+  height: 100px;
+  width: 100px;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.spring{
+  margin-right: 5%;
+  margin-top: 3%;
+  width: 60px;
+  height: 90px;
+}
+
+.engine{
+  height: 120px;
+  margin-top: 5%;
+  margin-right: 3%;
+}
+
+.gears{
+  margin-top: 5%;
+  margin-left: 27%;
+  height: 100px;
+  width: 200px;
+}
+
+
+.aero{
+  margin-left: 0;
+  width: 180px;
+  height: 100px;
+  margin-left: 30%;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+.old {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.new{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.oldData{
+  margin-top: 5%;
+  height: 700px;
+  border: 1px solid red;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.377),
+    0 6px 20px 0 rgba(0, 0, 0, 0.452);
+}
+
+.newData{
+  margin-top: 5%;
+  height: 700px;
+  border: 1px solid red;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.377),
+    0 6px 20px 0 rgba(0, 0, 0, 0.452);
+}
+
+.garageImage {
+  height: 100%;
+  width: 100%;
+}
+
+.garageoverlay2 {
+  padding-left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 1.3em;
+  font-family: zen;
+}
+
+.garageOverlay3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 1.3em;
+  font-family: zen;
+}
+
+
+
+@media screen and (max-width: 1100px) and (min-width: 750px) {
+  .common{
+    height: 600px;
+    width: 100%;
+  }
+  .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .old{
+    width: 100%;
+  }
+  .new{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) and (min-width: 500px){
+  .common{
+    height: 850px;
+    width: 100%;
+  }
+  .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .old{
+    width: 100%;
+  }
+  .new{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .common{
+    height: 1300px;
+    width: 100%;
+  }
+  .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .old{
+    width: 100%;
+  }
+  .new{
+    width: 100%;
+  }
+  .garageData{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .garageoverlay2 p{
+    margin-bottom: 50px;
+  }
+  .oldData{
+    height: 800px;
+  }
+  .newData{
+    height: 800px;
+  }
+  .engine{
+    left: 50%;
+  }
+  .gears{
+    margin-left: 10%;
+  }
+}

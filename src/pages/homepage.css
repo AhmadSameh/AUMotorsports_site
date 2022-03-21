@@ -1,0 +1,342 @@
+@font-face {
+  font-family: zen;
+  src: url("../assets/ZenKurenaido-Regular.ttf");
+}
+
+@font-face {
+  font-family: teko;
+  src: url("../assets/Teko-Medium.ttf");
+}
+
+@font-face {
+  font-family: sloganFont;
+  src: url("../assets/fonts/solganFont.ttf");
+}
+
+.homeScreen {
+  display: block;
+  animation: fadeEffect 2s;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* linear-gradient(
+      to right,
+      rgba(69, 70, 73, 0.685),
+      rgba(36, 35, 36, 0.377),
+      rgba(0, 0, 0, 0.795)
+    ), */
+
+/* .picContainer{
+  position: absolute;
+  width: 80%;
+  margin: auto;
+  top: 500;
+  left: 500;
+  bottom: 500;
+  right: 500;
+} */
+
+.picContainer img {
+  /* background-image: 
+    url("../assets/car.jpg"); */
+  position: relative;
+  height: 700px;
+  width: 100%;
+  margin-bottom: 10%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.compLists {
+  margin-top: 5%;
+}
+
+.compLists li {
+  margin-bottom: 5%;
+}
+
+#slogan1 {
+  width: 40%;
+  color: rgb(17, 15, 160);
+  position: absolute;
+  z-index: 1;
+  bottom: 20%;
+  left: 65%;
+  font-family: sloganFont;
+  text-shadow: 2px 2px 5px rgb(31, 19, 19);
+  font-size: 3em;
+  font-weight: bold;
+  /* color: rgb(52, 62, 70); */
+}
+
+#slogan2 {
+  width: 40%;
+  color: rgb(17, 15, 160);
+  position: absolute;
+  z-index: 1;
+  bottom: 13%;
+  left: 75%;
+  font-family: sloganFont;
+  text-shadow: 2px 2px 5px rgb(31, 19, 19);
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#nature {
+  color: rgb(63, 151, 36);
+}
+
+#lightning {
+  color: rgb(255, 230, 0);
+  font-weight: 100;
+}
+
+#textContainer {
+  width: 40%;
+  color: rgb(238, 238, 238);
+  position: absolute;
+  z-index: 1;
+  bottom: 20%;
+  left: 55%;
+  font-family: zen;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgb(31, 19, 19);
+  font-size: 1.2em;
+}
+
+#temp {
+  height: 200px;
+}
+
+.sponsor {
+  width: 100%;
+  height: 100%;
+}
+
+.sponsors {
+  margin: auto;
+  height: 400px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgba(122, 17, 17, 0.452); */
+  margin-bottom: 10%;
+  /* box-shadow: 0 4px 8px 0 rgba(253, 2, 2, 0.349),
+    0 6px 20px 0 rgba(187, 10, 10, 0.575); */
+}
+
+.team_history {
+  margin: auto;
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+  /* box-shadow: 0 4px 8px 0 rgba(253, 2, 2, 0.349),
+    0 6px 20px 0 rgba(187, 10, 10, 0.575); */
+}
+
+li {
+  font-size: 170%;
+  font-weight: bolder;
+  list-style-position: inside;
+  font-family: zen;
+}
+
+.ger {
+  list-style-image: url("../assets/icons/germany.png");
+}
+
+.itl {
+  list-style-image: url("../assets/icons/italy.png");
+}
+
+.competitions {
+  text-align: left;
+  display: inline-block;
+  padding: 3%;
+  padding-top: 0;
+  width: 30%;
+}
+
+.awards {
+  width: 30%;
+  text-align: left;
+  display: inline-block;
+  padding: 3%;
+  padding-top: 0;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-end;
+  font-family: zen;
+  font-size: 200%;
+  margin: auto;
+  text-align: center;
+  color: #1470cc;
+}
+
+.cover {
+  background-image: url("../assets/team_gallery/cover.jpg");
+  filter: blur(2px);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 4px 8px 0 rgba(7, 4, 4, 0.349);
+}
+
+
+.black {
+  background-color: rgba(0, 0, 0, 0.603);
+  height: 700px;
+  margin-bottom: 0;
+}
+
+#place {
+  margin-left: 5%;
+  font-size: 1.7em;
+}
+
+.title img {
+  margin-bottom: 7%;
+}
+
+.awards .title {
+  justify-content: left;
+}
+
+.awards img {
+  margin-right: 5%;
+  margin-left: 15%;
+}
+
+.title h2 {
+  margin-bottom: 5%;
+}
+
+.awards p {
+  font-family: zen;
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 3%;
+  font-weight: bolder;
+}
+
+ul {
+  margin: 0;
+  padding-left: 10%;
+  padding-top: 0;
+}
+
+.awardsLists p {
+  text-align: center;
+}
+
+.awardsLists p {
+  font-size: 1.8em;
+}
+
+.icon {
+  height: fit-content;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .picContainer img {
+    position: relative;
+    height: 220px;
+    width: 100%;
+    margin-bottom: 10%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .sponsor {
+    width: 100%;
+    height: 100%;
+  }
+  .sponsors {
+    width: 95%;
+  }
+  .team_history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+  .competitions {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    text-align: center;
+  }
+  .competitions .title {
+    justify-content: center;
+  }
+  .competitions .title img {
+    margin-right: 3%;
+  }
+  .awards {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .awards .title {
+    justify-content: center;
+  }
+  .awards .title img {
+    margin-left: 7%;
+  }
+}
+
+@media screen and (max-width: 1320px) and (min-width: 775px) {
+  .sponsors {
+    width: 80%;
+  }
+  .team_history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .competitions {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    text-align: center;
+  }
+  .awards {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .awards .title {
+    justify-content: center;
+  }
+  .awards .title img {
+    margin-left: 7%;
+  }
+}

@@ -1,0 +1,25 @@
+#background{
+  background-color: #d8dbe8;
+}
+
+#nav {
+  margin-top: 70px;
+}
+
+#tsparticles{
+  z-index: -1;
+  position: relative;
+}
+
+#home{
+  display: block;
+}
+
+.tabcontent{
+  display: none;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

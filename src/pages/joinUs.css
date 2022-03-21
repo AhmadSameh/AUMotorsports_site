@@ -1,0 +1,13 @@
+.joinScreen {
+  display: none;
+  animation: fadeEffect 2s;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
